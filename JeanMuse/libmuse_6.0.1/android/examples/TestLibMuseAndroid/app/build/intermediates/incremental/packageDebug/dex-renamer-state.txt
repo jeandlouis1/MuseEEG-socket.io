@@ -1,0 +1,7 @@
+#Sat Dec 30 17:07:04 EST 2017
+base.0=C\:\\Users\\Jean\\Documents\\fall17\\muse\\JeanMuseSocket\\JeanMuse\\libmuse_6.0.1\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_df513a33278170c8a1c0486456a12e4a08294c24
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Jean\\Documents\\fall17\\muse\\JeanMuseSocket\\JeanMuse\\libmuse_6.0.1\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bf97c6dd36732212857305f637794521514cf427\\classes.dex
+base.1=C\:\\Users\\Jean\\Documents\\fall17\\muse\\JeanMuseSocket\\JeanMuse\\libmuse_6.0.1\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bf97c6dd36732212857305f637794521514cf427
+file.0=C\:\\Users\\Jean\\Documents\\fall17\\muse\\JeanMuseSocket\\JeanMuse\\libmuse_6.0.1\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_df513a33278170c8a1c0486456a12e4a08294c24\\classes.dex

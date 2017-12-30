@@ -1,0 +1,22 @@
+{
+  "name": "web_socket_server",
+  "version": "1.0.0",
+  "description": "serverside code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "EEG",
+    "MUSE",
+    "socket.io"
+  ],
+  "author": "Jean D Louis",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.3"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
+}
