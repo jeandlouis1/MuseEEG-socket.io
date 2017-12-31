@@ -16,7 +16,7 @@ class SocketHandler {
     static synchronized Socket getInstance() {
         if(ourInstance == null){
             try {
-                ourInstance = IO.socket(Constants.CHAT_SERVER_URL);
+                ourInstance = IO.socket(Constants.SERVER_URL);
             } catch (URISyntaxException e) {
                 throw new RuntimeException(e);
             }

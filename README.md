@@ -5,7 +5,11 @@ Sending Electroencephalography(EEG) data over Socket.io using Muse EEG headset
 This is an example built on the muse sdk example code and socket.io java client code, modified to communicate EEG data to a web server using socket.io.
 
 ## Installation
+create new Constants class due to git ignore for the Constants file.
 place your ip for port 3000 for socket .io in the android javafile Constants
+
+### change public class ConstantsExample to public class Constants
+
 ```java
 public class Constants{
     //replace with your ip/server address :portserver is listening on
@@ -16,14 +20,14 @@ public class Constants{
 1. If you are running the the server on your local computer make sure your mobile device is on the same network 
 2. Your network setting is set to private instead of public
 
--Run the index.js file on the server
--launch the app
+- Run the index.js file on the server
+- launch the app
 
 ## Usage
 
-###Server Side snipit
+### Server Side snipit
 
-```javaScript
+```javascript
 //add other listenners for other signals if you want
 	socket.on("alphaData",function(data){
     //send back to requesting client
@@ -36,9 +40,9 @@ public class Constants{
 	});
 ```
 		
-###Android Side
+### Android Side
 
-####emit message from client
+#### emit message from client
 ```java
 mSocket.emit("alphaData",alphaBuffer[0]);
 //or 
@@ -82,20 +86,18 @@ private Emitter.Listener onAlphaDataEcho = new Emitter.Listener() {
 ```
 
 
-##Misc	
+## Misc	
 
 ### Problems faced
-cannot pass socket connection between activities in android, so  I used a singleton pattern
-http://grokbase.com/t/gg/android-developers/124g28kxsx/socket-sharing-between-activities
+ - [cannot pass socket connection between activities in android, so  I used a singleton pattern](http://grokbase.com/t/gg/android-developers/124g28kxsx/socket-sharing-between-activities)
 
-connecting physical android device to PC
-https://stackoverflow.com/questions/4779963/how-can-i-access-my-localhost-from-my-android-device
+ - [connecting physical android device to PC](https://stackoverflow.com/questions/4779963/how-can-i-access-my-localhost-from-my-android-device)
 
 ### Extra reff
 Main socket.io java client git example
-https://github.com/socketio/socket.io-client-java
+(https://github.com/socketio/socket.io-client-java)
 mpandroid chart
-https://www.youtube.com/watch?v=QEbljbZ4dNs
+(https://www.youtube.com/watch?v=QEbljbZ4dNs)
 Socket.io notes/playlist
-https://drewww.github.io/socket.io-benchmarking/
+(https://drewww.github.io/socket.io-benchmarking/)
  
