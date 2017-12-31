@@ -49,10 +49,11 @@ mSocket.emit("alphaData",alphaBuffer[0]);
 //perfered
 //use the built object wich holds all the main eeg vals
 mSocket.emit("alphaData",mEEGdata.getAlphaRef().getelem1());	
-````
+```
 
 #### recieve message from server 
-````java
+
+```java
 private Emitter.Listener onAlphaDataEcho = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
