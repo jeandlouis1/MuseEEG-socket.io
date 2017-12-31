@@ -52,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/choosemuse/example/libmuse/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="947" column="53" selection-start-line="947" selection-start-column="53" selection-end-line="947" selection-end-column="53" />
+            <state relative-caret-position="464">
+              <caret line="669" column="49" selection-start-line="669" selection-start-column="31" selection-end-line="669" selection-end-column="53" />
               <folding>
                 <element signature="docComment;class#MainActivity#0" expanded="false" />
                 <element signature="docComment;field#TAG#0;class#MainActivity#0" expanded="false" />
@@ -91,7 +91,6 @@
                 <element signature="docComment;field#tickUi#0;class#MainActivity#0" expanded="false" />
                 <element signature="e#24353#25075#0" expanded="true" />
                 <element signature="e#25074#25075#0" expanded="true" />
-                <element signature="method#updateElem#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#updateAccel#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#updateEeg#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#updateBeta#0;class#MainActivity#0" expanded="false" />
@@ -118,8 +117,8 @@
       <file leaf-file-name="ConstantsExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/choosemuse/example/libmuse/ConstantsExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/choosemuse/example/libmuse/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -2389,6 +2388,14 @@
       <option name="presentableId" value="Default" />
       <updated>1506391775000</updated>
     </task>
+    <task id="LOCAL-00001" summary="android test">
+      <created>1514679286433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1514679286433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2477,9 +2484,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="android test" />
+    <option name="LAST_COMMIT_MESSAGE" value="android test" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2522,7 +2533,6 @@
             <element signature="docComment;field#tickUi#0;class#MainActivity#0" expanded="false" />
             <element signature="e#24353#25075#0" expanded="true" />
             <element signature="e#25074#25075#0" expanded="true" />
-            <element signature="method#updateElem#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateAccel#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateEeg#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateBeta#0;class#MainActivity#0" expanded="false" />
@@ -2686,7 +2696,6 @@
             <element signature="docComment;field#tickUi#0;class#MainActivity#0" expanded="false" />
             <element signature="e#24353#25075#0" expanded="true" />
             <element signature="e#25074#25075#0" expanded="true" />
-            <element signature="method#updateElem#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateAccel#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateEeg#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateBeta#0;class#MainActivity#0" expanded="false" />
@@ -2767,7 +2776,6 @@
             <element signature="docComment;field#tickUi#0;class#MainActivity#0" expanded="false" />
             <element signature="e#24353#25075#0" expanded="true" />
             <element signature="e#25074#25075#0" expanded="true" />
-            <element signature="method#updateElem#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateAccel#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateEeg#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateBeta#0;class#MainActivity#0" expanded="false" />
@@ -2970,10 +2978,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/choosemuse/example/libmuse/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/choosemuse/example/libmuse/ConstantsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/choosemuse/example/libmuse/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="947" column="53" selection-start-line="947" selection-start-column="53" selection-end-line="947" selection-end-column="53" />
+        <state relative-caret-position="464">
+          <caret line="669" column="49" selection-start-line="669" selection-start-column="31" selection-end-line="669" selection-end-column="53" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
             <element signature="docComment;field#TAG#0;class#MainActivity#0" expanded="false" />
@@ -3008,7 +3032,6 @@
             <element signature="docComment;field#tickUi#0;class#MainActivity#0" expanded="false" />
             <element signature="e#24353#25075#0" expanded="true" />
             <element signature="e#25074#25075#0" expanded="true" />
-            <element signature="method#updateElem#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateAccel#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateEeg#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateBeta#0;class#MainActivity#0" expanded="false" />
@@ -3028,22 +3051,6 @@
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/choosemuse/example/libmuse/ConstantsExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/choosemuse/example/libmuse/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
