@@ -95,10 +95,10 @@ private Emitter.Listener onAlphaDataEcho = new Emitter.Listener() {
  - [connecting physical android device to PC](https://stackoverflow.com/questions/4779963/how-can-i-access-my-localhost-from-my-android-device)
 
 ### Extra reff
-Main socket.io java client git example
-(https://github.com/socketio/socket.io-client-java)
-mpandroid chart
-(https://www.youtube.com/watch?v=QEbljbZ4dNs)
-Socket.io notes/playlist
-(https://drewww.github.io/socket.io-benchmarking/)
+- Main socket.io java client git example
+https://github.com/socketio/socket.io-client-java
+- mpandroid chart
+https://www.youtube.com/watch?v=QEbljbZ4dNs
+- Socket.io notes/playlist
+https://drewww.github.io/socket.io-benchmarking/
  
